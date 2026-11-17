@@ -1,0 +1,77 @@
+# IP Addressing (IPv4 & IPv6)
+
+> **Module:** `02-NETWORKING-FUNDAMENTALS`  
+> **Topic:** IP Addressing (IPv4 & IPv6)  
+> **Status:** Active Reference & Study Notes  
+> [← Back to Master Index](../README.md)
+
+---
+
+## 1. Overview & Context
+
+IPv4 address classes, private RFC 1918 ranges, public IP routing, loopback, broadcast, multicast, and IPv6 structure and advantages.
+
+Understanding this topic is critical for both offensive security practitioners (ethical hackers, penetration testers, red teamers) and defensive security analysts (blue teamers, SOC analysts, detection engineers). Mastering foundational and operational details enables precise evaluation of risk and resilient defense architecture.
+
+---
+
+## 2. Core Concepts & Architecture
+
+### Key Principles
+- **Theoretical Foundations:** Essential background knowledge and industry definitions.
+- **Operational Mechanics:** How this component, protocol, or technique operates in enterprise environments.
+- **Security Implications:** Vulnerabilities, threat vectors, and architectural weaknesses commonly identified.
+
+### Detailed Breakdown
+1. **Definition & Purpose:** Core functionality and role within modern IT and security landscapes.
+2. **Architecture & Flow:** Technical components, communication channels, and interaction boundaries.
+3. **Common Variations & Standards:** Protocols, RFC specifications, and cross-platform behaviors.
+
+---
+
+## 3. Hands-on Commands & Practical Usage
+
+```bash
+# Practical commands, syntax, or configuration examples
+# Example: Inspecting related system parameters or services
+whoami
+uname -a
+```
+
+### Common Flags & Parameters
+| Parameter / Command | Description | Use Case |
+| :--- | :--- | :--- |
+| `example --help` | Display command usage and parameters | Quick syntax reference |
+| `example --verbose` | Enable verbose operational logging | Troubleshooting and inspection |
+
+---
+
+## 4. Offensive & Defensive Perspectives
+
+### Red Team (Offensive Considerations)
+- Identification of misconfigurations, default states, and unhardened interfaces.
+- Techniques for enumeration, exploitation, or post-exploitation related to this subject.
+- Evading basic signatures while maintaining operational control.
+
+### Blue Team (Defensive & Detection Considerations)
+- Hardening guidelines, baseline configuration, and least-privilege enforcement.
+- Relevant Event IDs, log sources, and SIEM correlation rules.
+- Detection mechanisms (e.g., Sigma, YARA, Snort/Suricata rules).
+
+---
+
+## 5. Practical Lab Exercises & Verification
+
+- [ ] **Lab Exercise 1:** Set up an isolated test scenario in your lab environment.
+- [ ] **Lab Exercise 2:** Execute enumeration and verification commands against the target.
+- [ ] **Lab Exercise 3:** Inspect generated system and security logs to verify detection coverage.
+- [ ] **Lab Exercise 4:** Implement recommended mitigations and re-test to confirm remediation.
+
+---
+
+## 6. References & Further Reading
+
+- [Official Documentation & Standards](../../24-REFERENCES-AND-RESOURCES/Official-Documentation.md)
+- [Industry Best Practices & Benchmarks](../../24-REFERENCES-AND-RESOURCES/Useful-Websites.md)
+- [MITRE ATT&CK Matrix Mapping](https://attack.mitre.org/)
+- [OWASP Security Guidance](https://owasp.org/)
